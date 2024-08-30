@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="5a34efcb-8ac3-402c-a673-822b723f37ab" ItemType="HTMLReportConfiguration" CreatedBy="MKALE" Created="202408300708" GingerVersion="24.4.1.0" Version="1" LastUpdateBy="MKALE" LastUpdate="202408300708" />
+<HTMLReportConfiguration ExecutionJsonDataLowerLevelToShow="ActionLevel" ExecutionStatisticsCountBy="Activities" Guid="5a34efcb-8ac3-402c-a673-822b723f37ab" IsDefault="True" LogoBase64Image="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" Name="Default" ReportLowerLevelToShow="ActionLevel">
+<ActionFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="7af4a4ae-3f87-4fea-937e-a1b33a7f7d7f" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="3e086858-b986-4e68-909a-ca5605099df3" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="e23ce947-6820-472e-a56b-7ead03feb29c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ActionType" Guid="01962be2-3680-42de-953c-b06405dcb14e" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="163bb09d-1e26-4989-8a16-864874c1a5fa" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="f12bf52f-4d99-45a5-8809-b1172255c0d3" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ElapsedSecs" Guid="c451a0ee-d8d1-4c45-9feb-d5581a4ca12c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ConfiguredRetryCount" Guid="a4421f4c-ccc7-4b06-b4e1-b73c76456041" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="CurrentRetryIteration" Guid="bb085d56-5928-4ff0-a1b6-00412c294fc5" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Status" Guid="1973dc6a-23fe-431e-bf3a-7bde614c5711" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Error" Guid="0b2876f7-7207-4161-a4a1-c7e16659f4e7" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExInfo" Guid="309bce24-c0fd-466f-b3e0-ac4a740dd1e5" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="InputValuesDT" Guid="615c4054-aef8-46dc-af31-03244ae5989f" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="OutputValuesDT" Guid="b4d92803-8978-4de6-8a08-85f7d7d66738" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="FlowControlDT" Guid="53841938-7806-4437-acbd-6dc1637434fa" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ScreenShot" Guid="2cebb98b-8113-4fd9-90f4-781b509e3aa5" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ScreenShots" Guid="c2099ea1-3362-49b0-a623-d92df99bffa9" IsSelected="True" />
+</ActionFieldsToSelect>
+
+<ActionSourceFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="ActionType" Guid="93e549c0-fec0-423f-8ff4-2d315647278d" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="CurrentRetryIteration" Guid="3ca7d5be-fcd8-4e13-8d03-8e5c2ff9c3f0" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Error" Guid="a9896f4e-5ffe-44a2-9854-944262617841" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExInfo" Guid="1accc438-a294-4353-9f47-4d6900187e47" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="InputValues" Guid="493ab0d0-97e8-4dc9-893e-ca26d0c52997" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="OutputValues" Guid="3c263a2b-8f64-4bab-9d08-9c69458cba88" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="FlowControls" Guid="4a41a072-5128-43fe-aeca-64bbd23064f2" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ScreenShots" Guid="b760d066-5a4e-4190-b67d-9ede617ad299" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Artifacts" Guid="12b471d8-8ef3-4464-bba9-46a65452dbf5" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Wait" Guid="1686143b-7d33-4808-a48d-9fbc29d779c6" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="TimeOut" Guid="b314be4c-eb5a-455a-96af-27a63bf83523" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="7d89bba3-6254-447d-9093-5125e1ac12bb" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="GUID" Guid="535efff7-df2e-459c-8b64-2501224eea19" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="d00b6e3d-d91d-4b4d-9398-c1fccbde47a5" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="f6658eca-b2dd-4d23-b72c-fc544df7762c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="ff32539e-3fc5-4157-9f66-6cbf8cde8150" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Environment" Guid="ee219eb1-abe0-4e73-936d-426e89f5252e" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="8da987c1-bdf1-4bc1-a85d-80970e99dc32" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="d3a8da73-efba-4987-a521-9f8080f8ac9b" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="7f35bb69-ab5f-4d34-b5b8-161e0b5f42fb" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="d68e2a11-8175-4688-9dbb-61cf9503104e" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesBeforeExec" Guid="5d3f52fa-d137-44e7-a022-e01d3f3d276c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesAfterExec" Guid="7e1f91d0-d26c-43d4-baa0-9e6a06496b70" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="_id" Guid="086c3386-57d6-4c9a-a2c6-2b7200ef8368" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionRate" Guid="00248d0d-ca7b-4b4f-9894-924a8b23fbe8" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="PassRate" Guid="c984d87f-125a-4724-bafa-4a42120663af" IsSelected="True" />
+</ActionSourceFieldsToSelect>
+
+<ActivityFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="368e3ef9-a943-4f23-b18a-c1581de7863c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ActivityGroupName" Guid="525b168f-3aca-498e-9289-9c4d55c668ba" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ActivityName" Guid="3332dd0b-80f2-4983-8c91-29611dd29651" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="8996dec4-33f6-4ab2-9974-c6e9a2c1b4de" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="47961823-e0ae-42e6-8434-c16e1cbd0407" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="6441ecdc-1c59-4f83-b18e-e59f64b2c331" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="98d7ce7c-a0d1-469f-acba-9ccd626c83fb" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ElapsedSecs" Guid="705c2739-c1ab-4780-9cca-cb9d6eb62010" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="a1bd8c72-f9db-4b34-94cb-cf69fb265337" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="TotalActions" Guid="dfbaee9b-8444-4168-b8d0-9dd673fa23aa" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID" Guid="9b7b9b74-6296-4272-9121-2bc3d3806491" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID2" Guid="adacbf36-eebd-4c14-8dc5-cb9846617b67" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="PassPercent" Guid="c359ac84-e17b-4064-894c-d72124390e71" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesDetails" Guid="ed3701f0-0a01-42c8-91ff-5671a9ac5a3c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ActionsDetails" Guid="04b5e2e4-5c32-437a-8d38-542054d2ce52" IsSelected="True" />
+</ActivityFieldsToSelect>
+
+<ActivityGroupFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="9b6403b4-3ce3-4562-b5df-88228371b11e" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="6b0b804b-70d2-40bf-b583-4762ecfdb95f" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="AutomationPrecentage" Guid="c1d37c9d-fde9-49a0-be28-f26457566e1b" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="92daa02d-91ab-4f04-9092-e6336c9f31f3" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="bda7aaa9-be11-4b95-b7f2-1c6d587a3912" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="773d5585-6297-4cae-83e5-a5d633ffd6cc" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="8ba18744-ebe9-42d7-92da-e2982ded183d" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ActivityDetails" Guid="abf14cb3-2e64-48b4-8e4c-db7f6165fa8c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID" Guid="dee37d8c-6611-4bbe-90ba-cba082b37ed1" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID2" Guid="abbe7658-d203-4378-83a4-123d7f31736c" IsSelected="True" />
+</ActivityGroupFieldsToSelect>
+
+<ActivityGroupSourceFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedActivitiesGUID" Guid="d447609b-2e39-4ad4-b973-b0ab0c701437" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="AutomationPrecentage" Guid="cf361f4f-d66f-40ee-9fdd-ef256701b488" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ActivitiesColl" Guid="f3dd17d5-8add-40d5-882e-f49ce1d93814" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID" Guid="5dc8144b-caa6-483b-b373-6c5ae4c7389c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID2" Guid="8f74f409-7e28-4eec-9053-7b8f826c9b8c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="da061168-fe5d-4c54-9de3-0fc4132d926c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="GUID" Guid="f6677a2c-c4a1-49b8-83b9-79e8d2a311bb" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="b23f2e3d-991d-4b7b-81fc-576b8d9d4ab3" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="6a7cc5d2-7260-40e2-9743-13fac00fe4c2" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="ab559fe1-135b-4f97-b292-9cd4ba3e216b" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Environment" Guid="66cdc3c5-7642-42bf-8345-9a5a7ca8caf1" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="1cee6e81-2e24-4057-9d02-352700e97c25" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="b04046d3-74aa-43e7-9fc0-18e3a2b152da" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="ab5eae64-9e48-4bcf-abf6-9f8ab7356605" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="2411a6a4-35ef-4016-8413-674f478710e0" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesBeforeExec" Guid="81617650-993d-4166-a3b8-62a9645d037c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesAfterExec" Guid="1832b2d0-7b40-4947-b91c-d68474651a18" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="_id" Guid="a4e927a6-6433-4841-9da3-f00b2adcb3d7" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionRate" Guid="eb8f26b3-2fec-4fbd-9d37-980c70369ebf" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="PassRate" Guid="e425cfcd-31f9-4148-88af-17d0b5e50326" IsSelected="True" />
+</ActivityGroupSourceFieldsToSelect>
+
+<ActivitySourceFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="ActivityGroupName" Guid="95b919e3-92e3-4165-8245-f80c1627e279" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ActionsColl" Guid="fc2a4204-45f2-4322-b84a-fafff26c5d94" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildExecutableItemsCount" Guid="ebaf6a77-6493-481e-a945-eacc96023f17" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildExecutedItemsCount" Guid="da938708-7efa-4f14-9766-e802a42fa6d1" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildPassedItemsCount" Guid="a25b5cbb-324b-4e00-b7e8-021e36f22c24" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ErrorDetails" Guid="cff8fc90-6b0b-4708-961c-4864af437097" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID" Guid="cb7e2570-409f-4af9-bf32-205a4ec56aad" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID2" Guid="56bb846e-75f3-4450-8241-eed6b04bc560" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="2f4de732-bedc-4ada-8a74-76659a9dfd03" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="GUID" Guid="72d5c64b-c8d4-440d-939e-3910b84e9de2" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="bb8aa48d-8782-4a9a-b2fb-8f1ddc7c7308" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="9c886443-9415-47cd-91d6-adfc26319176" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="9651bff9-aac3-4f4d-bc7a-472addd4a087" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Environment" Guid="6adfa312-8152-4d7b-a696-b66f7c2b4890" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="28ec8b2b-7798-437d-ad42-d6cab3527c9b" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="df923b96-71ee-4a16-8dd3-3bb65e7629c5" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="b36c3387-b912-40ba-8a78-83afb54360a8" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="b6d7f239-a970-4653-9e49-cbb01f9e208c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesBeforeExec" Guid="60c6d66a-13b5-4159-91df-63cd09f212ce" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesAfterExec" Guid="73e31653-f5d3-43a6-97ce-de5a0752f9e4" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="_id" Guid="8388c70d-6f6d-42da-8011-0695adf212bd" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionRate" Guid="53d0e56a-b7fd-4aa6-9524-873706a37c71" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="PassRate" Guid="e24c73bd-a6aa-4459-ad45-a0c814681b23" IsSelected="True" />
+</ActivitySourceFieldsToSelect>
+
+<BusinessFlowFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="33ed4d01-e0a0-4746-90dd-2f9aac9476a2" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="5df8b774-431a-4147-9583-b6675e17d33c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="28d4ad31-b3ac-456b-b65c-b94d102fc02d" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="1bbec514-209b-4edc-b1f1-1b2c5f73740a" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Environment" Guid="20001eff-2028-40e7-a1d8-21e4d8a1cf97" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="f66379e6-7498-45fb-9f0b-f4dcea8a75f9" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="3d68c33e-df11-4285-a435-884068454910" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="6131f5a2-77f3-4f9d-addf-e5a97285641a" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="c1b57c75-a76d-449b-ab46-10ae4fe4e52d" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID" Guid="a600e8b3-5343-4fe8-aebd-243542d6e321" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID2" Guid="1a5bb41d-56f8-469f-a27e-9fe076792e42" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="TotalActivities" Guid="93c2c521-ba19-4912-a117-f8e0c539a437" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionRate" Guid="e7fe0098-55e7-4faa-b906-208718b56b80" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="PassPercent" Guid="1faa5169-5a7c-48e3-9b36-f6c259e7d4ce" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesDetails" Guid="e01229f9-dce4-4e5a-8f9b-367d48626c18" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="SolutionVariablesDetails" Guid="fccd9ca7-a4d9-4908-8f24-a4f5a78661d4" />
+<HTMLReportConfigFieldToSelect FieldKey="ActivityDetails" Guid="35a56e6a-185c-402c-9517-81d8eb1a807c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="BFFlowControlDT" Guid="170be6c7-b71b-41a5-93e3-6f6fe3e669a6" IsSelected="True" />
+</BusinessFlowFieldsToSelect>
+
+<BusinessFlowSourceFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="InstanceGUID" Guid="a9e05f1a-2373-4c47-9643-0c5193dbd7d0" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="SolutionVariablesBeforeExec" Guid="e9ca6b74-b45a-457d-8309-b73a44b3c9f7" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="SolutionVariablesAfterExec" Guid="28f0b63b-876d-4fc7-92a1-d59ebe95ad61" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ActivitiesColl" Guid="c771831b-3cf0-417d-82b4-0916a4c55b33" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ActivitiesGroupsColl" Guid="d4b132a5-c2a2-43a6-87e9-ace371f3ab04" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="BFFlowControlDT" Guid="9c2945f6-e399-4196-b8c6-7a982f00764c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildExecutableItemsCount" Guid="012beb30-c078-4050-8cd9-5f0cddea6874" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildExecutedItemsCount" Guid="851eb6af-22a5-4b9d-91a8-3aab0eceb032" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildPassedItemsCount" Guid="65e3ffaa-0ff2-4e35-840f-3aa8307ce0e7" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID" Guid="ff6ed1d9-c73d-49d7-b883-9b1ec22b48ed" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExternalID2" Guid="ca3ebf9c-50fd-46c6-8fd2-b3e8828e2aab" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="d8631550-5a99-4700-b09a-5f061d3391f5" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="GUID" Guid="034b3125-5ef6-48b5-9b21-07cc0bc5829b" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="7a0603f7-94cd-4621-a5c2-12fcd8f6c258" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="81c470d3-15a8-42a8-bc7c-f57e7ac72e1a" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="46be1d72-1a53-46f3-8740-47f41a5bf2d2" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Environment" Guid="9e1097a3-47ea-43fb-a753-428971e912b4" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="05c817ba-a3b9-466c-b180-5bd02e3d4351" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="11197434-8320-4927-bcd5-bf7ad05fcab9" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="01ec27a3-30b1-44fd-b50f-5c4912011bc9" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="5e5e24bf-9930-4fb5-a505-812060bcc567" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesBeforeExec" Guid="7c472b42-6068-4870-94be-04eb49609a2f" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesAfterExec" Guid="09e9bbe5-f535-44be-8fab-cda4ed06050f" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="_id" Guid="55699799-198d-493a-8f24-4cc406acd500" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionRate" Guid="091a90fd-1fe4-4f3f-bfd7-c4ecb6b8f25c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="PassRate" Guid="2f656c27-47b7-44e9-b127-1426b927d49e" IsSelected="True" />
+</BusinessFlowSourceFieldsToSelect>
+
+<EmailSummaryViewFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="f6900a00-7b73-4b12-86bf-2e7694678847" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="c9fcbcde-28d1-4604-a112-a6ee0e326ce0" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="51502967-fc72-4938-a898-2109448da911" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="68190262-2194-4960-a8df-ce39fa912d7a" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionDuration" Guid="3bc640a9-f37f-4387-bc77-2f63d048ea59" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="GingerRunnersPassRate" Guid="67fa9593-922a-4ce2-8a5e-61c46c19bbd7" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunSetExecutionRate" Guid="92aa53a9-d15e-4e85-97ee-e324f0948f27" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EnvironmentsDetails" Guid="7878feb4-05d8-4f32-b000-9274ea767b06" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="GingerVersion" Guid="a1f2b9b2-b336-4085-934f-163e2593538a" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="MachineName" Guid="9afaf8c7-4084-4be0-be7d-c27f95001762" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedbyUser" Guid="9a334923-d374-47a7-8831-86655ca1b3c8" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="SourceApplication" Guid="c265bbe1-445d-4df0-a524-d843e464f570" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="SourceApplicationUser" Guid="5d5de336-b171-4e51-856d-2f947a6b4d59" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionStatisticsDetails" Guid="b4bb7b48-d465-482b-9096-47c45611d02c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedBusinessFlowsDetails" Guid="8834c085-b2e1-412c-bd27-7af0ce1f8e54" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedActivitiesDetails" Guid="d94ddae5-64d1-4389-979d-7ac36a9afbb7" />
+<HTMLReportConfigFieldToSelect FieldKey="FailuresDetails" Guid="16747438-42df-4c8a-8041-220b27efb89a" IsSelected="True" />
+</EmailSummaryViewFieldsToSelect>
+
+<GingerRunnerFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="b852ce08-39b8-49ea-9663-fd64c1ec5b80" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="90968feb-60e8-48ad-be09-ef44d89e4d69" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="a421df9c-6321-4cfb-ad4b-6961238bd908" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EnvironmentName" Guid="d601af50-99d2-4e00-9a59-c2cb5641dc39" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="1d3b41df-d703-4b9d-9fc4-bdd94bdd55c7" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="46ef3687-c01b-4e94-95d4-1bbdf2008907" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="073ced4e-02aa-48f5-8068-b856c4b1c324" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="GingerExecutionStatus" Guid="476dccee-4218-4c23-93e5-ef51fd6182fa" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="TotalBusinessFlows" Guid="4e41f6fa-a0bb-434e-8885-42e07219e800" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="BusinessFlowsPassRate" Guid="bda832d3-0939-4261-b938-69bf85f28add" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ApplicationAgentsMapping" Guid="d1cf8f1e-2c16-48b6-8bde-83a9a189970e" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="BusinessFlowsDetails" Guid="d1153f17-a8b7-49f9-966e-86ad140e9f30" IsSelected="True" />
+</GingerRunnerFieldsToSelect>
+
+<GingerRunnerSourceFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="ApplicationAgentsMappingList" Guid="2d0eff67-273c-448a-92b6-acacdde28ea4" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="BusinessFlowsColl" Guid="0d0c1b84-7228-4bea-a2fc-9c16fb6dd739" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildExecutableItemsCount" Guid="dac688eb-5058-4b24-be26-4afc9ad81bf2" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildExecutedItemsCount" Guid="446ac878-2cf8-43ad-b326-6ac76c7daffb" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildPassedItemsCount" Guid="4c48adc0-e6aa-4f2e-8d28-7754513c70ee" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="004707df-8cec-406d-bd61-27efa755b379" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="GUID" Guid="d35e1596-d51b-4725-ad5e-9ee5621f9336" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="17b675d1-a96c-4a32-9c3f-dddee7d4252e" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="1ecd80ae-0629-4828-ba57-c8b1b6c7783e" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="b1e5552e-b1ff-4813-8f76-678282368fb4" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Environment" Guid="5009e7c7-3695-4511-9159-84598731cccf" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="62f7e907-bf3b-42c7-9a5e-2f230e1eb6ea" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="15b68231-f2d6-4508-9477-58721e91bdee" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="fc82123d-cb0e-4172-97fc-cb33e8ccc79b" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="eacf70ac-9acd-4d7a-bd9f-553f5db0b0f0" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesBeforeExec" Guid="43a7b2fc-6208-40d0-83fc-47ce190e2515" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesAfterExec" Guid="5c67c5f9-9867-4355-8a58-2fa5084a4892" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="_id" Guid="a97f9c2c-6aa6-4512-a094-b68c36ad9740" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionRate" Guid="c232cbd1-d03a-428a-b28e-4bf576ba4984" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="PassRate" Guid="e5022a8f-1c71-430a-b4a1-b0ed5bd12bd5" IsSelected="True" />
+</GingerRunnerSourceFieldsToSelect>
+
+<RunSetFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="f5727f29-032f-4710-b5d7-1baa19415e08" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="f603ffae-73b4-4685-95c7-9b14f0a57e36" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="ed1eb786-8570-4539-ae68-1839246a8895" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="1a761a1e-1619-43a4-83dd-c86554a7fe7b" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionDuration" Guid="f9fa873e-95b2-4dc1-aaf4-4ad41f4e9df6" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="GingerRunnersPassRate" Guid="e2df5dac-05bf-4908-b17b-83d85061f0d6" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunSetExecutionRate" Guid="5be0fa3a-f169-4a16-a433-a69133c38010" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EnvironmentsDetails" Guid="3afc390d-0b1a-42b4-99c6-4a9214b5f27b" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="GingerVersion" Guid="aaa41d65-f55a-4684-ac12-6093add941db" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="MachineName" Guid="dead5c22-f5a9-4a8c-85bd-debab801977f" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedbyUser" Guid="1d172609-c1d4-4da7-b14e-4f766b3c7840" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="SourceApplication" Guid="96b315ea-ab4f-4747-a9d0-d085f9ef0603" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="SourceApplicationUser" Guid="83965331-cc0b-4ca1-946d-cbb6b846853d" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionStatisticsDetails" Guid="1db401d1-1083-437e-a0ad-5e83be1c82f7" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedBusinessFlowsDetails" Guid="165e04d3-517a-4dbb-a1ae-86355b476c28" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedActivitiesDetails" Guid="0828eafa-6139-41c8-98a9-04dba4b0eabf" />
+<HTMLReportConfigFieldToSelect FieldKey="FailuresDetails" Guid="623d655e-7954-4b71-8614-8980728658d8" IsSelected="True" />
+</RunSetFieldsToSelect>
+
+<RunSetSourceFieldsToSelect>
+<HTMLReportConfigFieldToSelect FieldKey="GingerVersion" Guid="e0b30bf6-9e82-4e26-bfe1-b887953ca2f9" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="MachineName" Guid="a24fc2d4-e5fa-4253-83da-c22295d7d0cf" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutedbyUser" Guid="c41b30d1-814a-4c0b-814e-79f815faa986" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunnersColl" Guid="54555554-8c44-4a82-8d51-9073278e5e5d" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildExecutableItemsCount" Guid="127db323-8c07-4d59-abe9-889407b85391" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildExecutedItemsCount" Guid="5ff71510-4a74-4093-9c6e-d27cc93c1ed2" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ChildPassedItemsCount" Guid="304d46b7-49fc-4168-b911-c74738e11df7" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Seq" Guid="02635583-70bb-4b60-944e-c75c02f6267e" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="GUID" Guid="79bfdc8e-09bb-49f2-a395-01a3d5448708" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Name" Guid="03b595cb-6961-4e3e-8625-e535596e94b9" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Description" Guid="f1611490-793d-4598-be78-fbd9e8ca9eee" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunDescription" Guid="dbcb0a55-08e1-4010-88c9-21246767ad92" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Environment" Guid="4a832b87-ce1a-4064-abde-2eb8a8032cea" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="StartTimeStamp" Guid="7fbd53a4-ebf7-4214-801b-b14b1c4be6ae" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="EndTimeStamp" Guid="e4c01161-af50-4b74-9af1-c077637b306c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="Elapsed" Guid="bd414993-76af-4043-9ed8-dae3d327ec7c" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="RunStatus" Guid="65f4bc26-bd7a-43ee-9bd1-08fa9383fc68" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesBeforeExec" Guid="a4f3a640-7e58-4e82-aae2-4d6604dece7e" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="VariablesAfterExec" Guid="97be466f-1580-4ddb-a49d-9271fbb57ccf" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="_id" Guid="e40fe402-fe4c-4a7c-b845-29b45927f70b" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="ExecutionRate" Guid="84c3426f-5f34-41c8-b9a4-ae80875b7654" IsSelected="True" />
+<HTMLReportConfigFieldToSelect FieldKey="PassRate" Guid="acf89b7f-082c-4623-b3f4-78225d8f6362" IsSelected="True" />
+</RunSetSourceFieldsToSelect>
+</HTMLReportConfiguration></GingerRepositoryItem>

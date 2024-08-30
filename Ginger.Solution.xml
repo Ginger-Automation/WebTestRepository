@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="02c50a5e-cbd4-4137-8046-4509a3a4603e" ItemType="Solution" CreatedBy="MKALE" Created="202408300708" GingerVersion="24.4.1.0" Version="2" LastUpdateBy="MKALE" LastUpdate="202408300708" />
+<Solution EncryptedValidationString="A5RnJOpsXZCjFjuVdwLq/A==" Guid="02c50a5e-cbd4-4137-8046-4509a3a4603e" Name="WebTestRepository">
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="SauceDemo" Guid="2da1dd2e-bfbd-4777-9132-94f4fa1dc565" Platform="Web" />
+</ApplicationPlatforms>
+
+<ApplitoolsConfiguration>
+<ApplitoolsConfiguration Guid="1d836569-502e-45d3-b91e-25ec99848671" />
+</ApplitoolsConfiguration>
+
+<AskLisaConfiguration>
+<AskLisaConfiguration Account="Ginger" ContinueChat="AQEQABot/Lisa/ContinueChat" DataPath="./Data/Ginger" DomainType="Knowledge Management" EnableChat="No" GrantType="client_credentials" Guid="46d26de0-3715-4335-93cb-ad77d85e621b" MaxTokenValue="2000" StartNewChat="AQEQABot/Lisa/StartNewChat" TemperatureLevel="0.1" />
+</AskLisaConfiguration>
+
+<ExecutionLoggerConfigurationSetList>
+<ExecutionLoggerConfiguration DeleteLocalDataOnPublish="Yes" ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="429721c1-f66c-494f-80a4-91b614fead60" IsSelected="True" PublishLogToCentralDB="No" SelectedDataRepositoryMethod="LiteDB" Seq="0" UploadArtifactsToCentralizedReport="Yes" />
+</ExecutionLoggerConfigurationSetList>
+
+<HTMLReportsConfigurationSetList>
+<HTMLReportsConfiguration Guid="304ddb7f-965d-4e35-9468-541c08277bc5" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" Seq="0" />
+</HTMLReportsConfigurationSetList>
+
+<SealightsConfiguration>
+<SealightsConfiguration Guid="cdf19b36-63da-443f-890a-b15dc0f7e44c" SealightsLog="No" SealightsReportedEntityLevel="BusinessFlow" SealightsTestRecommendations="No" />
+</SealightsConfiguration>
+
+<VRTConfiguration>
+<VRTConfiguration DifferenceTolerance="0.0" FailActionOnCheckpointMismatch="Yes" Guid="2598dcf7-fffe-4cc1-b1c8-da75bd5052d5" />
+</VRTConfiguration>
+</Solution></GingerRepositoryItem>

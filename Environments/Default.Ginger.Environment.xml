@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="e3a3c22e-9a32-4f50-b426-288dccfd6b98" ItemType="ProjEnvironment" CreatedBy="MKALE" Created="202408300708" GingerVersion="24.4.1.0" Version="1" LastUpdateBy="MKALE" LastUpdate="202408300708" />
+<ProjEnvironment Guid="e3a3c22e-9a32-4f50-b426-288dccfd6b98" Name="Default">
+<Applications>
+<EnvApplication Active="True" Guid="44435e9d-d002-40b2-9b49-1237ffa4e766" Name="SauceDemo" ParentGuid="2da1dd2e-bfbd-4777-9132-94f4fa1dc565" />
+</Applications>
+</ProjEnvironment></GingerRepositoryItem>
