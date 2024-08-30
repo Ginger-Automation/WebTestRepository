@@ -1,19 +1,259 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="4e5a363a-8236-4060-bffe-9b29fb786ba9" ItemType="BusinessFlow" CreatedBy="MKALE" Created="202408300708" GingerVersion="24.4.1.0" Version="1" LastUpdateBy="MKALE" LastUpdate="202408300708" />
-<BusinessFlow Guid="4e5a363a-8236-4060-bffe-9b29fb786ba9" Name="Flow 1" Source="Ginger" Status="Unknown">
+<GingerRepositoryItem><Header ItemGuid="4e5a363a-8236-4060-bffe-9b29fb786ba9" ItemType="BusinessFlow" CreatedBy="MKALE" Created="202408300708" GingerVersion="24.4.1.0" Version="8" LastUpdateBy="MKALE" LastUpdate="202408300843" />
+<BusinessFlow DevelopmentTime="00:12:17" Guid="4e5a363a-8236-4060-bffe-9b29fb786ba9" Name="Sauce Lab Order" Source="Ginger" Status="Unknown">
 <Activities>
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="37bc1796-89cb-4cc9-9c46-65ff53021db2" PercentAutomated="0%" TargetApplication="SauceDemo" Type="Regular" />
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Login To Sauce Lab" AutomationStatus="Development" DevelopmentTime="00:00:50" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="c5cf9532-9db6-4f50-8006-a5ccb64b3303" ParentGuid="dee710b6-6d3b-4510-8bab-70fcb5dc6a0b" PercentAutomated="100%" POMMetaDataId="8dca69d0-89db-49af-8aae-4e6e928d8102" TargetApplication="SauceDemo" Type="Regular">
+<Acts>
+<ActBrowserElement Active="True" AutoScreenShotOnFailure="True" Description="Go to Url - Login" Guid="0aa8cbd9-b4dc-465e-aa37-c4b7aa74b804" ParentGuid="0aa8cbd9-b4dc-465e-aa37-c4b7aa74b804" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0c38f480-7973-4792-b93c-1241f8d58e54" Param="ControlAction" Value="GotoURL" />
+<ActInputValue Guid="8604116b-251c-4a79-b87e-d7a9d8bffedf" Param="LocateBy" Value="NA" />
+<ActInputValue Guid="3090bd26-8aa9-4c38-aad0-d3dce08a1cd1" Param="Value" Value="https://www.saucedemo.com/" />
+<ActInputValue Guid="48d51152-6478-431e-b450-0252e89ca0c6" Param="LocateValue" />
+<ActInputValue Guid="48a1bcb4-b7df-46b1-8dde-106ac6917856" Param="ImplicitWait" />
+<ActInputValue Guid="9f003cdb-db89-4b7f-a7ab-6dbe00923ff2" Param="NetworkLog" />
+<ActInputValue Guid="e74ed1eb-1ad3-49bb-948e-2685e4f0c3e7" Param="NetworkUrl" />
+<ActInputValue Guid="f2b5d130-6fd7-4dbe-af46-c64dd81bc2aa" Param="PomGUID" />
+<ActInputValue Guid="6df732dd-5d18-4418-9176-5b34f710739e" Param="sBlockedUrls" />
+</InputValues>
+</ActBrowserElement>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="SetText - input text user-name" Guid="7c63d7cb-c90f-415e-9ae6-0e945c4a7cac" ParentGuid="7c63d7cb-c90f-415e-9ae6-0e945c4a7cac" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="6ca5a2a3-96e5-4003-99e1-c7f0ef7f1789" Param="ElementAction" Value="SetText" />
+<ActInputValue Guid="01324418-69ee-4de0-a5d0-3343f29abf80" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="97bcc2bf-7391-4406-84c4-f7a964eb7488" Param="ElementLocateValue" Value="9ab67ff8-8e04-4162-9c9c-c17c5e45d816_f03546b8-6627-461b-91cf-748587adbddb" />
+<ActInputValue Guid="106dd5f4-c0a3-4eba-a8aa-cda899893bed" Param="ElementType" Value="TextBox" />
+<ActInputValue Guid="ce4072a0-6be9-412e-aa1c-eb19fe23635b" Param="Value" Value="{Var Name=Username}" />
+<ActInputValue Guid="7111d1bd-90c1-48f7-8a91-fb3604df4e74" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="2eca908a-f8ff-4e43-bd2e-46f939ac93b5" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="73031f4f-cb7a-4fd5-9899-9eddebb4cbb8" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="d7795aa5-4362-40a1-8736-3812afad578b" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="SetText - input password" Guid="89f34e4a-a69f-47ba-a28a-08bfdea7b5bd" ParentGuid="89f34e4a-a69f-47ba-a28a-08bfdea7b5bd" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="7ef63f14-d2c4-40e0-875c-50c22f50b879" Param="ElementAction" Value="SetText" />
+<ActInputValue Guid="21bafbb0-fb98-4bd6-94ae-9b3813593689" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="b1f33fd7-51a3-4921-b476-18c47c1e716f" Param="ElementLocateValue" Value="9ab67ff8-8e04-4162-9c9c-c17c5e45d816_2f99f273-194d-45f9-9197-0e36235938e1" />
+<ActInputValue Guid="93e6c9d9-124d-4e39-8a84-d9121df7f841" Param="ElementType" Value="TextBox" />
+<ActInputValue Guid="9b04e3a7-d4e6-4948-8016-7ce5b5008664" Param="Value" Value="{Var Name=Password}" />
+<ActInputValue Guid="7ec40ebd-9a1f-40b2-b500-16ba2e3c0c87" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="64ce90ef-2f38-4383-9f4b-70b88d079a52" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="dd9373b0-2c5d-4ba2-bdfe-c8c2e7dc1397" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="3b670a14-e309-4180-9e35-b1984aae228b" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="Click - input submit login-button Login" Guid="5a30a443-c0f8-44b8-9ee0-537eb4a87228" ParentGuid="5a30a443-c0f8-44b8-9ee0-537eb4a87228" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="9c1bf8c6-8070-4584-8f3a-53eb616de5e0" Param="ElementAction" Value="Click" />
+<ActInputValue Guid="5cf780df-1167-49ea-8f1e-d906d39629e3" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="545acd06-98f2-45c0-a5e0-62a348b2aad1" Param="ElementLocateValue" Value="9ab67ff8-8e04-4162-9c9c-c17c5e45d816_d66b90f0-b79e-4a0e-9ae2-fb4a6b821033" />
+<ActInputValue Guid="28d78a8d-51ef-4307-b3e9-eaeee0148197" Param="ElementType" Value="Button" />
+<ActInputValue Guid="7883903f-c39a-4c59-8789-75a93ccb707d" Param="Value" />
+<ActInputValue Guid="d5ff8942-894e-49e2-ae70-9b2c60e095a5" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="509b6a5b-f910-4160-87e4-94b1bc6953d2" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="27d7f95e-5beb-416a-af6f-2feb2d171546" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="4a23f4dd-ead7-478d-be07-8fe9f441a663" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+
+<Variables>
+<VariableString Guid="6c556e5e-17c8-4635-b727-4ca4069a886d" InitialStringValue="standard_user" MappedOutputType="None" Name="Username" ParentGuid="c5cf9532-9db6-4f50-8006-a5ccb64b3303" ParentName="Flow 1\Group\Login To Sauce Lab" ParentType="Activity" SetAsInputValue="False" SetAsOutputValue="False" />
+<VariablePasswordString Guid="5a6e13aa-0613-4851-a020-b75cbfbb05f2" MappedOutputType="None" Name="Password" ParentGuid="c5cf9532-9db6-4f50-8006-a5ccb64b3303" ParentName="Flow 1\Group\Login To Sauce Lab" ParentType="Activity" Password="kJrMTNMfmA4veuDWzMUI/A==" SetAsInputValue="False" SetAsOutputValue="False" />
+</Variables>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Add Items From Inventory" AutomationStatus="Development" DevelopmentTime="00:01:08" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="9c0453a7-e7af-464f-b99e-0f10af182ee0" PercentAutomated="100%" TargetApplication="SauceDemo" Type="Regular">
+<Acts>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="Click - button Add to cart add-to-cart-sauce-labs-backpack" Guid="db5e38e5-523a-4e4d-9103-8410ffe40d1c" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="50b9d750-4f5b-4a4c-9aba-e29f978fb991" Param="ElementAction" Value="Click" />
+<ActInputValue Guid="d2026660-52e0-453e-90dc-38f4e65fcb4f" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="39348fd3-f213-43f5-8813-085ae56e1d81" Param="ElementLocateValue" Value="27a1a470-2349-4442-89eb-0575b77942be_70083809-0ff1-428f-8801-680e7d821c90" />
+<ActInputValue Guid="3a095552-b36f-4642-a63d-a10e9fd7b110" Param="ElementType" Value="Button" />
+<ActInputValue Guid="105012a5-502e-4196-8da6-4b526b1dbc05" Param="Value" />
+<ActInputValue Guid="8198ed6e-76d2-44ff-a8bc-49acbdbe8271" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="79d23718-8a25-4e70-8a20-fe0b6e7d36fc" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="0b6caa96-04d7-4aea-84b8-35c7486dd678" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="c322c70e-7116-48ad-91da-2ac10b589421" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="Click - button Add to cart add-to-cart-sauce-labs-bike-light" Guid="6f5737a4-7982-4670-a98d-0106486b0964" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="ddcbb296-644a-41b9-bb20-6a5410ff7760" Param="ElementAction" Value="Click" />
+<ActInputValue Guid="e727aced-5b2d-48e8-90a5-41bdeb09df19" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="d41f5e17-1143-4c64-8d78-963e41ebe91f" Param="ElementLocateValue" Value="27a1a470-2349-4442-89eb-0575b77942be_aa433203-b02a-4c82-bddf-e24c8813a473" />
+<ActInputValue Guid="cf0a3288-b80b-4461-b098-3cbdd69095af" Param="ElementType" Value="Button" />
+<ActInputValue Guid="0f5a4c89-86bc-4bee-a56b-392d3e22f411" Param="Value" />
+<ActInputValue Guid="cdb69e09-7712-4601-a561-1063e742c939" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="afcc92b9-42f8-4e43-a04f-30eaaee0d908" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="cbfdd2bd-910d-45b7-8025-c9e4dcf59e9d" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="7e4eb09a-2e8a-4533-a6e4-fc695b6ad74e" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="Click - Checkout" Guid="f6bf5cef-4635-4340-9930-58cbd49b88d8" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="c1eb6381-7078-42a7-92d8-14c183ecac11" Param="ElementAction" Value="Click" />
+<ActInputValue Guid="ddb0118c-7a10-4aaa-b552-fcbbfac39cdc" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="b87b22d8-598c-4dd3-9f7d-ebe1a94a563d" Param="ElementLocateValue" Value="27a1a470-2349-4442-89eb-0575b77942be_eaf1e9ba-c1aa-4dfc-a93f-4fca899c68e3" />
+<ActInputValue Guid="e971caac-ae67-4441-9a06-cd7a966d7a56" Param="ElementType" Value="HyperLink" />
+<ActInputValue Guid="baa51868-e68b-43f2-9dc8-8891b77a8eb4" Param="Value" />
+<ActInputValue Guid="7bb828b4-6c42-4546-bbf4-bc6424005133" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="b630b1e5-fd1a-45d2-84bf-3079446e06e3" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="4f2be4a1-1981-4236-a95a-7dc466415085" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="2462b8e5-9f73-4858-bfbf-23826b56fc39" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Checkout Cart" AutomationStatus="Development" DevelopmentTime="00:00:32" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="a73de707-4727-4db1-855d-0ae49d867795" PercentAutomated="100%" TargetApplication="SauceDemo" Type="Regular">
+<Acts>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="Click - button Checkout checkout" Guid="a8c85825-d1c9-4573-a02e-059386b61457" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="2dde910c-370e-474f-a1e1-6691fc7c5080" Param="ElementAction" Value="Click" />
+<ActInputValue Guid="45d9a302-b8ae-4e53-bc1a-0f69303c174b" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="d3aff864-03f2-4c30-8944-e231ff3683ce" Param="ElementLocateValue" Value="eb42a130-97f9-4803-ad0e-6f14e656d98c_40c8ba9b-c758-4c3e-8587-d40559e90512" />
+<ActInputValue Guid="fcbe80b9-1a46-4ef0-97a7-cfcd9fb236de" Param="ElementType" Value="Button" />
+<ActInputValue Guid="ae5d1395-68b9-4db8-8526-219f43bafc09" Param="Value" />
+<ActInputValue Guid="e1cafe85-6ca6-457f-ad40-ff3f9a73ebe5" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="67f21d29-0010-4f90-8c6b-e68d6d797482" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="1feb71a1-59d2-4c61-b214-afb29359eff3" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="eeda56e1-9234-466f-8be4-7305e10eb561" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Add Your Information" AutomationStatus="Development" DevelopmentTime="00:01:24" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="9003aae0-33b4-4098-b3c3-4ce1e535da3d" ParentGuid="33a55e9f-268f-4ebf-9bb1-f8f0fe85d00b" PercentAutomated="100%" POMMetaDataId="98520424-a7f7-4f5c-827d-4687dd555088" TargetApplication="SauceDemo" Type="Regular">
+<Acts>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="SetText - input text firstName first-name" Guid="d7c9448b-85ea-4a57-adce-65d1caff9c57" ParentGuid="d7c9448b-85ea-4a57-adce-65d1caff9c57" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="63fcfea3-15f2-4833-bf5c-5f4250c8017e" Param="ElementAction" Value="SetText" />
+<ActInputValue Guid="a815e2aa-f87e-485d-bac6-d07ccc4baac8" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="cb67bed4-7179-4000-b456-72650269af3e" Param="ElementLocateValue" Value="4557e6f7-297b-4763-9ea0-cc8fb5de0303_4bce3d8b-4e1c-4dc8-a6ee-5e7947ab8500" />
+<ActInputValue Guid="4a4681c1-1b0d-412e-b420-19a5e86eb7ae" Param="ElementType" Value="TextBox" />
+<ActInputValue Guid="abe2a6bb-0aab-472a-b77f-25d5bb981358" Param="Value" Value="{MockDataExp Fun=Name(@&quot;en_IND&quot;).FirstName();}" />
+<ActInputValue Guid="d4e93376-e931-4b14-b5b1-f95d5d89f11e" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="510f99f5-1151-408a-af72-43921100a8fc" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="51133fda-46a0-4b69-b1d1-0e1070040be7" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="1ab9952d-9c6d-496a-ba50-7f6a4179e41e" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="SetText - input text lastName last-name" Guid="9855dd71-6c2c-470c-9b09-0cb20222e13a" ParentGuid="9855dd71-6c2c-470c-9b09-0cb20222e13a" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="94f67567-b030-4db8-9c78-c7216e850102" Param="ElementAction" Value="SetText" />
+<ActInputValue Guid="ca5e5a7d-745a-4d23-b835-9d7900622af2" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="88fc931e-1341-4ed4-9240-af58445958d8" Param="ElementLocateValue" Value="4557e6f7-297b-4763-9ea0-cc8fb5de0303_71891a9f-9764-4239-bc98-31f417959c83" />
+<ActInputValue Guid="bd3774c2-0a99-4a82-8bfb-cd765fb1a17a" Param="ElementType" Value="TextBox" />
+<ActInputValue Guid="59268cf5-8aff-43b6-8cb5-0c22d882fe4e" Param="Value" Value="{MockDataExp Fun=Name(@&quot;en_IND&quot;).LastName();}" />
+<ActInputValue Guid="6e153c47-10ec-4a2a-a02c-332570f570e3" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="54604a1b-11f6-436d-bfd9-27ef47865ee8" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="3f07fcd0-c9fc-44e8-9922-c3103e5d0c07" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="463204cd-14bb-4944-9ad2-b2dc9e98250f" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="SetText - input text postalCode postal-code" Guid="819b58f9-5c4d-41a9-affc-579da719a973" ParentGuid="819b58f9-5c4d-41a9-affc-579da719a973" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="daab9229-1e09-42e3-8610-6fab5f34529f" Param="ElementAction" Value="SetText" />
+<ActInputValue Guid="e7f34d99-5c71-4190-9c84-bbad732d6f1f" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="d2abb5d8-46b3-4f15-a147-21c16088b4b4" Param="ElementLocateValue" Value="4557e6f7-297b-4763-9ea0-cc8fb5de0303_c384807b-dcea-4054-9d57-aa0799f36410" />
+<ActInputValue Guid="81794699-c5d4-4b06-93e8-91ab3ea379b4" Param="ElementType" Value="TextBox" />
+<ActInputValue Guid="b1fe4ce7-dbd3-4859-bcd5-d49989866a8b" Param="Value" Value="{MockDataExp Fun=Address(@&quot;en_IND&quot;).ZipCode();}" />
+<ActInputValue Guid="4aedcaaa-a96d-4fe4-a67f-92a53d2820ca" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="6ada79ba-d989-40d7-a19d-2a7907988ed1" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="e3ebfb00-f933-4752-ae5b-08092ab1e8f3" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="12414843-b711-436c-8fce-af91c0131c9c" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="Click - input submit continue Continue" Guid="93b24726-2052-4287-b78b-dae703e355c4" ParentGuid="93b24726-2052-4287-b78b-dae703e355c4" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="355234fe-6e53-4dc2-b001-55eb61abc5e7" Param="ElementAction" Value="Click" />
+<ActInputValue Guid="e6c62c5e-720c-4ff0-a85d-dacefec3df43" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="e21f3a26-521f-49b5-bdc3-596ca7ba1c5b" Param="ElementLocateValue" Value="4557e6f7-297b-4763-9ea0-cc8fb5de0303_1fbd57c9-7978-4c2e-822a-3b65d1cee3d5" />
+<ActInputValue Guid="5cc17b8a-dfd1-4c95-9440-7b8867a2894f" Param="ElementType" Value="Button" />
+<ActInputValue Guid="5b67f90f-8fbe-4d5e-a2da-9e1387933c27" Param="Value" />
+<ActInputValue Guid="4a36de4f-af3a-4078-acb1-f41ce1aca333" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="9849e9a8-768b-4e8e-a889-80df37eb6fb2" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="62860064-52b9-4514-8d01-6ca231f739dc" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="1e8914f1-e40b-4c6d-964a-c9f014e2f785" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Overview" AutomationStatus="Development" DevelopmentTime="00:01:27" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="0eea3bde-ef87-4db4-9cf9-8e4b0ee61511" PercentAutomated="100%" TargetApplication="SauceDemo" Type="Regular">
+<Acts>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="Verify Order Total" Guid="ffbe0291-dcde-4593-8922-d82ac5b77e33" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="0b33c28a-56f7-4fed-843c-a5f6548d9b43" Param="ElementAction" Value="GetValue" />
+<ActInputValue Guid="f2e7af64-e90d-4364-8fb6-db8662f6eb42" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="5837297b-3cfe-455c-a59f-eabf2d87310a" Param="ElementLocateValue" Value="6b1a6104-66f2-4080-9eac-4ecbfa7e51f2_c9eb8d7a-5ac1-4095-bc19-8724bab92b86" />
+<ActInputValue Guid="3ec2ad12-3884-4978-9add-8d91a555f413" Param="ElementType" Value="Div" />
+<ActInputValue Guid="7c254cf6-7b54-4bd7-b27b-deb9eacecffd" Param="Value" />
+<ActInputValue Guid="57676731-5ff9-4823-b599-50811bba01bb" Param="ValueToSelect" />
+<ActInputValue Guid="e239dda6-c2e3-40bc-839e-c0c52cc6648a" Param="XCoordinate" />
+<ActInputValue Guid="80891af9-f54c-40d4-a4e8-210cfc5b7403" Param="YCoordinate" />
+<ActInputValue Guid="83659a02-4b3c-44b8-8141-36d0163e9d16" Param="ControlAction" />
+<ActInputValue Guid="7bf94f96-bf1a-453b-b0ad-5d2faabe4c83" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="55120ef3-fdd5-4d24-9ec4-fe71c2ad2e6b" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="fb71d48c-14c0-4c41-a9c2-b039ac7e6371" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="a89b6ee1-01da-4afb-89ec-25ab3a37ff3c" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Expected="Total: $43.18" Guid="30dac1a8-bb56-4454-99d4-f56fd3ec105b" Operator="Equals" Param="Actual" StoreTo="None" />
+</ReturnValues>
+</ActUIElement>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="Click - button Finish" Guid="f539e04b-a7d4-4a62-9bf6-d783a7b2086f" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="937ddbd4-570c-4d80-889b-cd7b6b45c96f" Param="ElementAction" Value="Click" />
+<ActInputValue Guid="526898cd-e532-4ee6-a3b6-343c87a0a4db" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="155c5641-8e66-4ad0-b5c4-b9bef3913038" Param="ElementLocateValue" Value="6b1a6104-66f2-4080-9eac-4ecbfa7e51f2_808e55fa-8344-4d93-94de-527ba51f6be1" />
+<ActInputValue Guid="4631b4da-3374-4a4f-a3c6-f4eb559c16b7" Param="ElementType" Value="Button" />
+<ActInputValue Guid="c6603ba4-fc51-4d97-a982-761e74b532d1" Param="Value" />
+<ActInputValue Guid="c52d079d-0930-4034-a929-56e893c7dcc3" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="c084bdad-b733-4e3e-aa91-6bfd2f9bf366" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="d1d9d785-ff02-490f-9bd4-f06bb730f21c" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="891deca3-f6c8-47b3-af42-3f6c65b064e0" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Complete Order" AutomationStatus="Development" DevelopmentTime="00:06:27" ErrorHandlerMappingType="ErrorHandlersMatchingTrigger" Guid="f77af738-49b8-4745-a0cb-309cf528a963" PercentAutomated="100%" TargetApplication="SauceDemo" Type="Regular">
+<Acts>
+<ActUIElement Active="True" AutoScreenShotOnFailure="True" Description="Verify Order Success is displayed" Guid="e8bbf9a5-23dd-4b1f-8f34-5fe3cbf2078d" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="474d1d75-fe6d-411e-8209-fc004922463b" Param="ElementAction" Value="GetValue" />
+<ActInputValue Guid="8dff415e-d4c8-4cb5-8d6a-7b7cee525b14" Param="ElementLocateBy" Value="POMElement" />
+<ActInputValue Guid="8a960051-f544-4c35-8ebb-643d7e4bd09f" Param="ElementLocateValue" Value="b181ac79-9b0e-4681-b516-dac04db1360e_6677e766-040c-4d9b-bd0a-deb4d809eaa5" />
+<ActInputValue Guid="a1b89f74-6538-4dae-915c-a44d0155eab9" Param="ElementType" Value="Text" />
+<ActInputValue Guid="0a2bf398-a6b2-4be7-aca5-37c1031efedd" Param="Value" />
+<ActInputValue Guid="4f23f653-9f01-4efd-b53b-c1964c6a2a27" Param="TargetLocateBy" Value="NA" />
+<ActInputValue Guid="9af5e5ce-cf50-458f-a1fc-26b854bfd3df" Param="TargetElementType" Value="Unknown" />
+<ActInputValue Guid="a7c6228e-48cc-4f17-a2e0-982d6c9e0ae9" Param="HandleElementType" Value="Unknown" />
+<ActInputValue Guid="e55f2d22-354a-4232-aecd-df0ea54a1bfb" Param="HandleActionType" Value="Unknown" />
+</InputValues>
+
+<ReturnValues>
+<ActReturnValue Active="True" Expected="Thank you for your order!" Guid="b25a5f61-9cbc-4c15-a22e-2aead19eee05" Operator="Equals" Param="Actual" StoreTo="None" />
+</ReturnValues>
+</ActUIElement>
+</Acts>
+</Activity>
 </Activities>
 
 <ActivitiesGroups>
 <ActivitiesGroup Guid="a1e85946-b1d9-49eb-be4b-c15f3ed36fc2" Name="Group">
 <ActivitiesIdentifiers>
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="37bc1796-89cb-4cc9-9c46-65ff53021db2" ActivityName="Activity 1" Guid="aa95ff61-d514-4d8c-848d-a3d2f1be6151" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="c5cf9532-9db6-4f50-8006-a5ccb64b3303" ActivityName="Login To Sauce Lab" ActivityParentGuid="dee710b6-6d3b-4510-8bab-70fcb5dc6a0b" Guid="b0fc9ac2-1978-47fa-ab29-f1b5abc3f650" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9c0453a7-e7af-464f-b99e-0f10af182ee0" ActivityName="Add Items From Inventory" Guid="c9a4a25f-2e32-47cb-a90c-250d62909a63" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a73de707-4727-4db1-855d-0ae49d867795" ActivityName="Checkout Cart" Guid="70e7c27e-219e-4313-b053-2a68c0dbf127" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="9003aae0-33b4-4098-b3c3-4ce1e535da3d" ActivityName="Add Your Information" ActivityParentGuid="33a55e9f-268f-4ebf-9bb1-f8f0fe85d00b" Guid="52f35ac7-95b1-4119-96a3-52eefb1e59c0" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="0eea3bde-ef87-4db4-9cf9-8e4b0ee61511" ActivityName="Overview" Guid="afeb5989-5fea-41ac-a023-a9eaac02fa0a" />
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="f77af738-49b8-4745-a0cb-309cf528a963" ActivityName="Complete Order" Guid="010e02c7-e56b-43b6-b56d-844e51c21034" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
 
 <TargetApplications>
-<TargetApplication AppName="SauceDemo" Guid="26562dcf-7b33-41a4-b1f6-0bd8fe240509" ParentGuid="2da1dd2e-bfbd-4777-9132-94f4fa1dc565" />
+<TargetApplication AppName="SauceDemo" Guid="2da1dd2e-bfbd-4777-9132-94f4fa1dc565" LastExecutingAgentName="SauceDemo" />
 </TargetApplications>
 </BusinessFlow></GingerRepositoryItem>
